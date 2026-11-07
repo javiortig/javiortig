@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="298" viewBox="0 0 550 298" role="img" aria-labelledby="chat-title chat-desc">
+  <title id="chat-title">Hi, I'm Javier Orti García.</title>
+  <desc id="chat-desc">I focus on solving problems through data, mathematics and software. I build data pipelines, develop models and turn ideas into software. Let's connect on LinkedIn.</desc>
+  <!-- Chat concept adapted from Joel Lee and Jason Long (Unlicense).
+       https://github.com/joonhyung-lee/joonhyung-lee
+       Text, spacing, colours and animation timing adapted for Javier. -->
+  <style>
+    .chat-bubble { fill: #eef0f4; }
+    .chat-copy { fill: #24292f; font: 21px -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; letter-spacing: -.25px; }
+    .chat-greeting { font-weight: 500; }
+    .chat-accent { fill: #ede9fb; }
+    .chat-link { fill: #6542bd; }
+    .chat-arrow { stroke: #6542bd; fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+    .chat-message { animation: chat-arrive .28s cubic-bezier(.2,.8,.2,1) both; }
+    .chat-typing { opacity: 0; animation: chat-think .85s linear both; }
+    .chat-dot { fill: #969aa6; animation: chat-dot 1s ease-in-out infinite; }
+    @keyframes chat-arrive { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes chat-think { 0%, 100% { opacity: 0; } 15%, 78% { opacity: 1; } }
+    @keyframes chat-dot { 0%, 70%, 100% { opacity: .4; } 35% { opacity: 1; } }
+    @media (prefers-color-scheme: dark) {
+      .chat-bubble { fill: #242a34; }
+      .chat-copy { fill: #e6edf3; }
+      .chat-accent { fill: #302743; }
+      .chat-link { fill: #c7afff; }
+      .chat-arrow { stroke: #c7afff; }
+      .chat-dot { fill: #a4a9b5; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .chat-message { animation: none; opacity: 1; }
+      .chat-typing { animation: none; opacity: 0; }
+      .chat-dot { animation: none; }
+    }
+  </style>
+  <g transform="translate(12 8)">
+    <g class="chat-typing" style="animation-delay:0.0s">
+      <rect class="chat-bubble" width="76" height="48" rx="22"/>
+      <circle class="chat-dot" cx="24" cy="24" r="4" style="animation-delay:0.00s"/>
+      <circle class="chat-dot" cx="38" cy="24" r="4" style="animation-delay:0.15s"/>
+      <circle class="chat-dot" cx="52" cy="24" r="4" style="animation-delay:0.30s"/>
+    </g>
+    <g class="chat-message" style="animation-delay:0.85s">
+      <rect class="chat-bubble" width="270" height="48" rx="20"/>
+      <text class="chat-copy chat-greeting" x="18" y="31">Hi, I&#x27;m Javier Orti García.</text>
+    </g>
+  </g>
+  <g transform="translate(12 66)">
+    <g class="chat-typing" style="animation-delay:1.4s">
+      <rect class="chat-bubble" width="76" height="48" rx="22"/>
+      <circle class="chat-dot" cx="24" cy="24" r="4" style="animation-delay:0.00s"/>
+      <circle class="chat-dot" cx="38" cy="24" r="4" style="animation-delay:0.15s"/>
+      <circle class="chat-dot" cx="52" cy="24" r="4" style="animation-delay:0.30s"/>
+    </g>
+    <g class="chat-message" style="animation-delay:2.35s">
+      <rect class="chat-bubble" width="366" height="76" rx="20"/>
+      <text class="chat-copy" x="18" y="31">I focus on solving problems through</text>
+      <text class="chat-copy" x="18" y="58">data, mathematics and software.</text>
+    </g>
+  </g>
+  <g transform="translate(12 152)">
+    <g class="chat-typing" style="animation-delay:2.9s">
+      <rect class="chat-bubble" width="76" height="48" rx="22"/>
+      <circle class="chat-dot" cx="24" cy="24" r="4" style="animation-delay:0.00s"/>
+      <circle class="chat-dot" cx="38" cy="24" r="4" style="animation-delay:0.15s"/>
+      <circle class="chat-dot" cx="52" cy="24" r="4" style="animation-delay:0.30s"/>
+    </g>
+    <g class="chat-message" style="animation-delay:4.0s">
+      <rect class="chat-bubble" width="390" height="76" rx="20"/>
+      <text class="chat-copy" x="18" y="31">I build data pipelines, develop models</text>
+      <text class="chat-copy" x="18" y="58">and turn ideas into software.</text>
+    </g>
+  </g>
+  <g transform="translate(12 238)">
+    <g class="chat-typing" style="animation-delay:4.6s">
+      <rect class="chat-bubble" width="76" height="48" rx="22"/>
+      <circle class="chat-dot" cx="24" cy="24" r="4" style="animation-delay:0.00s"/>
+      <circle class="chat-dot" cx="38" cy="24" r="4" style="animation-delay:0.15s"/>
+      <circle class="chat-dot" cx="52" cy="24" r="4" style="animation-delay:0.30s"/>
+    </g>
+    <g class="chat-message" style="animation-delay:5.45s">
+      <rect class="chat-bubble chat-accent" width="292" height="48" rx="20"/>
+      <text class="chat-copy chat-link" x="18" y="31">Let&#x27;s connect on LinkedIn</text>
+      <path class="chat-arrow" d="M260 29l10-10m-9 0h9v9"/>
+    </g>
+  </g>
+<style>.chat-message { animation: none; opacity: 1; } .chat-typing { display: none; } .chat-dot { animation: none; }</style></svg>
