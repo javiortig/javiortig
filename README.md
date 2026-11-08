@@ -3,16 +3,7 @@
 
 <a href="https://www.linkedin.com/in/jortig/">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/chat-static.svg" />
-    <img src="assets/chat.svg" width="550" alt="Hi, I'm Javier Orti García. I focus on solving problems through data, mathematics and software. I build data pipelines, develop models and turn ideas into software. Let's connect on LinkedIn." />
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-static.svg" />
+    <img src="assets/profile.svg" width="550" alt="Hi, I'm Javier Orti García. I focus on solving problems through data, mathematics and software. I build data pipelines, develop models and turn ideas into software. Let's connect on LinkedIn. Málaga, Spain." />
   </picture>
 </a>
-
-<p>
-  <a href="https://www.linkedin.com/in/jortig/">LinkedIn ↗</a>
-</p>
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/neural-network-static.svg" />
-  <img src="assets/neural-network.svg" width="550" alt="An animated neural network: data, patterns, predictions." />
-</picture>

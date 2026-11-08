@@ -1,0 +1,500 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="profile" width="550" height="524" viewBox="0 0 550 524" role="img" aria-labelledby="profile-title profile-desc">
+  <title id="profile-title">Javier Orti García</title>
+  <desc id="profile-desc">I focus on solving problems through data, mathematics and software. I build data pipelines, develop models and turn ideas into software. Let's connect on LinkedIn. After the chat, Málaga, Spain and an animated neural network appear.</desc>
+  <style>
+    .profile-footer { animation: profile-reveal .45s ease 5.95s both; }
+    .profile-location { fill: #6e7781; font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
+    @keyframes profile-reveal { from { opacity: 0; } to { opacity: 1; } }
+    @media (prefers-color-scheme: dark) { .profile-location { fill: #8b949e; } }
+    @media (prefers-reduced-motion: reduce) { .profile-footer { animation: none; opacity: 1; } }
+  </style>
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="298" viewBox="0 0 550 298" role="img" aria-labelledby="chat-title chat-desc">
+  <title id="chat-title">Hi, I'm Javier Orti García.</title>
+  <desc id="chat-desc">I focus on solving problems through data, mathematics and software. I build data pipelines, develop models and turn ideas into software. Let's connect on LinkedIn.</desc>
+  <!-- Chat concept adapted from Joel Lee and Jason Long (Unlicense).
+       https://github.com/joonhyung-lee/joonhyung-lee
+       Text, spacing, colours and animation timing adapted for Javier. -->
+  <style>
+    .chat-bubble { fill: #eef0f4; }
+    .chat-copy { fill: #24292f; font: 21px -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; letter-spacing: -.25px; }
+    .chat-greeting { font-weight: 500; }
+    .chat-accent { fill: #ede9fb; }
+    .chat-link { fill: #6542bd; }
+    .chat-arrow { stroke: #6542bd; fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+    .chat-message { animation: chat-arrive .28s cubic-bezier(.2,.8,.2,1) both; }
+    .chat-typing { opacity: 0; animation: chat-think .85s linear both; }
+    .chat-dot { fill: #969aa6; animation: chat-dot 1s ease-in-out infinite; }
+    @keyframes chat-arrive { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes chat-think { 0%, 100% { opacity: 0; } 15%, 78% { opacity: 1; } }
+    @keyframes chat-dot { 0%, 70%, 100% { opacity: .4; } 35% { opacity: 1; } }
+    @media (prefers-color-scheme: dark) {
+      .chat-bubble { fill: #242a34; }
+      .chat-copy { fill: #e6edf3; }
+      .chat-accent { fill: #302743; }
+      .chat-link { fill: #c7afff; }
+      .chat-arrow { stroke: #c7afff; }
+      .chat-dot { fill: #a4a9b5; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .chat-message { animation: none; opacity: 1; }
+      .chat-typing { animation: none; opacity: 0; }
+      .chat-dot { animation: none; }
+    }
+  </style>
+  <g transform="translate(12 8)">
+    <g class="chat-typing" style="animation-delay:0.0s">
+      <rect class="chat-bubble" width="76" height="48" rx="22"/>
+      <circle class="chat-dot" cx="24" cy="24" r="4" style="animation-delay:0.00s"/>
+      <circle class="chat-dot" cx="38" cy="24" r="4" style="animation-delay:0.15s"/>
+      <circle class="chat-dot" cx="52" cy="24" r="4" style="animation-delay:0.30s"/>
+    </g>
+    <g class="chat-message" style="animation-delay:0.85s">
+      <rect class="chat-bubble" width="270" height="48" rx="20"/>
+      <text class="chat-copy chat-greeting" x="18" y="31">Hi, I&#x27;m Javier Orti García.</text>
+    </g>
+  </g>
+  <g transform="translate(12 66)">
+    <g class="chat-typing" style="animation-delay:1.4s">
+      <rect class="chat-bubble" width="76" height="48" rx="22"/>
+      <circle class="chat-dot" cx="24" cy="24" r="4" style="animation-delay:0.00s"/>
+      <circle class="chat-dot" cx="38" cy="24" r="4" style="animation-delay:0.15s"/>
+      <circle class="chat-dot" cx="52" cy="24" r="4" style="animation-delay:0.30s"/>
+    </g>
+    <g class="chat-message" style="animation-delay:2.35s">
+      <rect class="chat-bubble" width="366" height="76" rx="20"/>
+      <text class="chat-copy" x="18" y="31">I focus on solving problems through</text>
+      <text class="chat-copy" x="18" y="58">data, mathematics and software.</text>
+    </g>
+  </g>
+  <g transform="translate(12 152)">
+    <g class="chat-typing" style="animation-delay:2.9s">
+      <rect class="chat-bubble" width="76" height="48" rx="22"/>
+      <circle class="chat-dot" cx="24" cy="24" r="4" style="animation-delay:0.00s"/>
+      <circle class="chat-dot" cx="38" cy="24" r="4" style="animation-delay:0.15s"/>
+      <circle class="chat-dot" cx="52" cy="24" r="4" style="animation-delay:0.30s"/>
+    </g>
+    <g class="chat-message" style="animation-delay:4.0s">
+      <rect class="chat-bubble" width="390" height="76" rx="20"/>
+      <text class="chat-copy" x="18" y="31">I build data pipelines, develop models</text>
+      <text class="chat-copy" x="18" y="58">and turn ideas into software.</text>
+    </g>
+  </g>
+  <g transform="translate(12 238)">
+    <g class="chat-typing" style="animation-delay:4.6s">
+      <rect class="chat-bubble" width="76" height="48" rx="22"/>
+      <circle class="chat-dot" cx="24" cy="24" r="4" style="animation-delay:0.00s"/>
+      <circle class="chat-dot" cx="38" cy="24" r="4" style="animation-delay:0.15s"/>
+      <circle class="chat-dot" cx="52" cy="24" r="4" style="animation-delay:0.30s"/>
+    </g>
+    <g class="chat-message" style="animation-delay:5.45s">
+      <rect class="chat-bubble chat-accent" width="292" height="48" rx="20"/>
+      <text class="chat-copy chat-link" x="18" y="31">Let&#x27;s connect on LinkedIn</text>
+      <path class="chat-arrow" d="M260 29l10-10m-9 0h9v9"/>
+    </g>
+  </g>
+</svg>
+  <g class="profile-footer">
+    <text class="profile-location" x="12" y="323">Málaga, Spain</text>
+<svg x="0" y="350" xmlns="http://www.w3.org/2000/svg" class="nn-network" width="550" height="172" viewBox="0 0 550 172" role="img" aria-labelledby="network-title network-desc">
+  <title id="network-title">From data to predictions.</title>
+  <desc id="network-desc">A decorative neural network with a coordinated forward pass. Signals branch across connections, activate successive hidden layers, and converge on two teal output neurons. Each receiving neuron lights up as its signals arrive.</desc>
+  <defs>
+    <filter id="nn-soft-glow" x="-80%" y="-80%" width="260%" height="260%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="1.6" />
+    </filter>
+  </defs>
+  <style>
+    .nn-network { --nn-violet: #8860ce; --nn-indigo: #777fc8; --nn-teal: #318f89; --nn-surface: #fff; --nn-wire: #dce1eb; --nn-border: #aeb7c8; --nn-caption: #707888; }
+    .nn-stage-0, .nn-stage-1 { --nn-accent: var(--nn-violet); }
+    .nn-stage-2 { --nn-accent: var(--nn-indigo); }
+    .nn-stage-3 { --nn-accent: var(--nn-teal); }
+    .nn-edge { stroke: var(--nn-wire); stroke-width: 1; fill: none; }
+    .nn-node { fill: var(--nn-surface); stroke: var(--nn-border); stroke-width: 1.3; }
+    .nn-node-tint { fill: none; stroke: var(--nn-accent); stroke-width: 1.5; opacity: .2; animation: nn-activate 6.4s ease-out infinite; animation-delay: calc(var(--nn-delay) + 6.4s); }
+    .nn-core { fill: var(--nn-accent); opacity: .14; animation: nn-activate 6.4s ease-out infinite; animation-delay: calc(var(--nn-delay) + 6.4s); }
+    .nn-halo { fill: var(--nn-accent); opacity: 0; transform-origin: 0px 0px; animation: nn-halo 6.4s ease-out infinite; animation-delay: calc(var(--nn-delay) + 6.4s); }
+    .nn-ring { fill: none; stroke: var(--nn-accent); stroke-width: 1; opacity: 0; transform-origin: 0px 0px; animation: nn-ring 6.4s ease-out infinite; animation-delay: calc(var(--nn-delay) + 6.4s); }
+    .nn-route { fill: none; stroke: var(--nn-accent); stroke-width: 1.2; opacity: 0; animation: nn-route 6.4s linear infinite; animation-delay: calc(var(--nn-delay) + 6.4s); }
+    .nn-trail { fill: none; stroke: var(--nn-accent); stroke-width: 1.7; stroke-linecap: round; stroke-dasharray: 12 100; stroke-dashoffset: 12; opacity: 0; animation: nn-travel 6.4s linear infinite; animation-delay: calc(var(--nn-delay) + 6.4s); }
+    .nn-packet { fill: none; stroke: var(--nn-accent); stroke-width: 3.1; stroke-linecap: round; stroke-dasharray: .01 101; stroke-dashoffset: 0; opacity: 0; animation: nn-packet 6.4s linear infinite; animation-delay: calc(var(--nn-delay) + 6.4s); }
+    .nn-packet-glow { stroke-width: 6; filter: url(#nn-soft-glow); }
+    .nn-label { fill: var(--nn-caption); font: 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; letter-spacing: 1.5px; text-anchor: middle; }
+    .nn-label-active { fill: var(--nn-accent); opacity: 0; animation: nn-caption 6.4s ease-out infinite; animation-delay: calc(var(--nn-delay) + 6.4s); }
+    @keyframes nn-travel {
+      0% { stroke-dashoffset: 12; opacity: 0; }
+      2% { opacity: var(--nn-strength); }
+      17% { stroke-dashoffset: -88; opacity: var(--nn-strength); }
+      19%, 100% { stroke-dashoffset: -100; opacity: 0; }
+    }
+    @keyframes nn-packet {
+      0% { stroke-dashoffset: 0; opacity: 0; }
+      2% { opacity: var(--nn-strength); }
+      17% { stroke-dashoffset: -100; opacity: var(--nn-strength); }
+      18%, 100% { stroke-dashoffset: -100; opacity: 0; }
+    }
+    @keyframes nn-route { 0% { opacity: 0; } 17% { opacity: .23; } 34%, 100% { opacity: 0; } }
+    @keyframes nn-activate { 0% { opacity: .14; } 2% { opacity: 1; } 7% { opacity: .8; } 19%, 100% { opacity: .14; } }
+    @keyframes nn-halo { 0% { opacity: 0; transform: scale(.7); } 2% { opacity: .16; transform: scale(1); } 16%, 100% { opacity: 0; transform: scale(1.5); } }
+    @keyframes nn-ring { 0% { opacity: 0; transform: scale(.8); } 2% { opacity: .5; transform: scale(1); } 19%, 100% { opacity: 0; transform: scale(2.1); } }
+    @keyframes nn-caption { 0% { opacity: 0; } 2%, 7% { opacity: 1; } 20%, 100% { opacity: 0; } }
+    @media (prefers-color-scheme: dark) {
+      .nn-network { --nn-violet: #ba96f3; --nn-indigo: #9baff0; --nn-teal: #71d4c6; --nn-surface: #0d1117; --nn-wire: #303849; --nn-border: #66738a; --nn-caption: #929cad; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .nn-network * { animation: none !important; }
+      .nn-route, .nn-trail, .nn-packet, .nn-halo, .nn-ring, .nn-label-active { opacity: 0; }
+      .nn-core, .nn-node-tint { opacity: .35; }
+    }
+  </style>
+  <path class="nn-edge" d="M70 39L207 20"/>
+  <path class="nn-edge" d="M70 39L207 58"/>
+  <path class="nn-edge" d="M70 39L207 96"/>
+  <path class="nn-edge" d="M70 39L207 134"/>
+  <path class="nn-edge" d="M70 77L207 20"/>
+  <path class="nn-edge" d="M70 77L207 58"/>
+  <path class="nn-edge" d="M70 77L207 96"/>
+  <path class="nn-edge" d="M70 77L207 134"/>
+  <path class="nn-edge" d="M70 115L207 20"/>
+  <path class="nn-edge" d="M70 115L207 58"/>
+  <path class="nn-edge" d="M70 115L207 96"/>
+  <path class="nn-edge" d="M70 115L207 134"/>
+  <path class="nn-edge" d="M207 20L344 20"/>
+  <path class="nn-edge" d="M207 20L344 58"/>
+  <path class="nn-edge" d="M207 20L344 96"/>
+  <path class="nn-edge" d="M207 20L344 134"/>
+  <path class="nn-edge" d="M207 58L344 20"/>
+  <path class="nn-edge" d="M207 58L344 58"/>
+  <path class="nn-edge" d="M207 58L344 96"/>
+  <path class="nn-edge" d="M207 58L344 134"/>
+  <path class="nn-edge" d="M207 96L344 20"/>
+  <path class="nn-edge" d="M207 96L344 58"/>
+  <path class="nn-edge" d="M207 96L344 96"/>
+  <path class="nn-edge" d="M207 96L344 134"/>
+  <path class="nn-edge" d="M207 134L344 20"/>
+  <path class="nn-edge" d="M207 134L344 58"/>
+  <path class="nn-edge" d="M207 134L344 96"/>
+  <path class="nn-edge" d="M207 134L344 134"/>
+  <path class="nn-edge" d="M344 20L481 58"/>
+  <path class="nn-edge" d="M344 20L481 96"/>
+  <path class="nn-edge" d="M344 58L481 58"/>
+  <path class="nn-edge" d="M344 58L481 96"/>
+  <path class="nn-edge" d="M344 96L481 58"/>
+  <path class="nn-edge" d="M344 96L481 96"/>
+  <path class="nn-edge" d="M344 134L481 58"/>
+  <path class="nn-edge" d="M344 134L481 96"/>
+  <g class="nn-stage-1" style="--nn-delay:0.492s;--nn-strength:0.38">
+    <path class="nn-route" pathLength="100" d="M70 39L207 20"/>
+    <path class="nn-trail" pathLength="100" d="M70 39L207 20"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M70 39L207 20"/>
+    <path class="nn-packet" pathLength="100" d="M70 39L207 20"/>
+  </g>
+  <g class="nn-stage-1" style="--nn-delay:0.592s;--nn-strength:0.6">
+    <path class="nn-route" pathLength="100" d="M70 39L207 58"/>
+    <path class="nn-trail" pathLength="100" d="M70 39L207 58"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M70 39L207 58"/>
+    <path class="nn-packet" pathLength="100" d="M70 39L207 58"/>
+  </g>
+  <g class="nn-stage-1" style="--nn-delay:0.692s;--nn-strength:0.85">
+    <path class="nn-route" pathLength="100" d="M70 39L207 96"/>
+    <path class="nn-trail" pathLength="100" d="M70 39L207 96"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M70 39L207 96"/>
+    <path class="nn-packet" pathLength="100" d="M70 39L207 96"/>
+  </g>
+  <g class="nn-stage-1" style="--nn-delay:0.792s;--nn-strength:0.38">
+    <path class="nn-route" pathLength="100" d="M70 39L207 134"/>
+    <path class="nn-trail" pathLength="100" d="M70 39L207 134"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M70 39L207 134"/>
+    <path class="nn-packet" pathLength="100" d="M70 39L207 134"/>
+  </g>
+  <g class="nn-stage-1" style="--nn-delay:0.492s;--nn-strength:0.85">
+    <path class="nn-route" pathLength="100" d="M70 77L207 20"/>
+    <path class="nn-trail" pathLength="100" d="M70 77L207 20"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M70 77L207 20"/>
+    <path class="nn-packet" pathLength="100" d="M70 77L207 20"/>
+  </g>
+  <g class="nn-stage-1" style="--nn-delay:0.592s;--nn-strength:0.38">
+    <path class="nn-route" pathLength="100" d="M70 77L207 58"/>
+    <path class="nn-trail" pathLength="100" d="M70 77L207 58"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M70 77L207 58"/>
+    <path class="nn-packet" pathLength="100" d="M70 77L207 58"/>
+  </g>
+  <g class="nn-stage-1" style="--nn-delay:0.692s;--nn-strength:0.6">
+    <path class="nn-route" pathLength="100" d="M70 77L207 96"/>
+    <path class="nn-trail" pathLength="100" d="M70 77L207 96"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M70 77L207 96"/>
+    <path class="nn-packet" pathLength="100" d="M70 77L207 96"/>
+  </g>
+  <g class="nn-stage-1" style="--nn-delay:0.792s;--nn-strength:0.85">
+    <path class="nn-route" pathLength="100" d="M70 77L207 134"/>
+    <path class="nn-trail" pathLength="100" d="M70 77L207 134"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M70 77L207 134"/>
+    <path class="nn-packet" pathLength="100" d="M70 77L207 134"/>
+  </g>
+  <g class="nn-stage-1" style="--nn-delay:0.492s;--nn-strength:0.6">
+    <path class="nn-route" pathLength="100" d="M70 115L207 20"/>
+    <path class="nn-trail" pathLength="100" d="M70 115L207 20"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M70 115L207 20"/>
+    <path class="nn-packet" pathLength="100" d="M70 115L207 20"/>
+  </g>
+  <g class="nn-stage-1" style="--nn-delay:0.592s;--nn-strength:0.85">
+    <path class="nn-route" pathLength="100" d="M70 115L207 58"/>
+    <path class="nn-trail" pathLength="100" d="M70 115L207 58"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M70 115L207 58"/>
+    <path class="nn-packet" pathLength="100" d="M70 115L207 58"/>
+  </g>
+  <g class="nn-stage-1" style="--nn-delay:0.692s;--nn-strength:0.38">
+    <path class="nn-route" pathLength="100" d="M70 115L207 96"/>
+    <path class="nn-trail" pathLength="100" d="M70 115L207 96"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M70 115L207 96"/>
+    <path class="nn-packet" pathLength="100" d="M70 115L207 96"/>
+  </g>
+  <g class="nn-stage-1" style="--nn-delay:0.792s;--nn-strength:0.6">
+    <path class="nn-route" pathLength="100" d="M70 115L207 134"/>
+    <path class="nn-trail" pathLength="100" d="M70 115L207 134"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M70 115L207 134"/>
+    <path class="nn-packet" pathLength="100" d="M70 115L207 134"/>
+  </g>
+  <g class="nn-stage-2" style="--nn-delay:1.892s;--nn-strength:0.6">
+    <path class="nn-route" pathLength="100" d="M207 20L344 20"/>
+    <path class="nn-trail" pathLength="100" d="M207 20L344 20"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M207 20L344 20"/>
+    <path class="nn-packet" pathLength="100" d="M207 20L344 20"/>
+  </g>
+  <g class="nn-stage-2" style="--nn-delay:1.992s;--nn-strength:0.85">
+    <path class="nn-route" pathLength="100" d="M207 20L344 58"/>
+    <path class="nn-trail" pathLength="100" d="M207 20L344 58"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M207 20L344 58"/>
+    <path class="nn-packet" pathLength="100" d="M207 20L344 58"/>
+  </g>
+  <g class="nn-stage-2" style="--nn-delay:2.092s;--nn-strength:0.38">
+    <path class="nn-route" pathLength="100" d="M207 20L344 96"/>
+    <path class="nn-trail" pathLength="100" d="M207 20L344 96"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M207 20L344 96"/>
+    <path class="nn-packet" pathLength="100" d="M207 20L344 96"/>
+  </g>
+  <g class="nn-stage-2" style="--nn-delay:2.192s;--nn-strength:0.6">
+    <path class="nn-route" pathLength="100" d="M207 20L344 134"/>
+    <path class="nn-trail" pathLength="100" d="M207 20L344 134"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M207 20L344 134"/>
+    <path class="nn-packet" pathLength="100" d="M207 20L344 134"/>
+  </g>
+  <g class="nn-stage-2" style="--nn-delay:1.892s;--nn-strength:0.38">
+    <path class="nn-route" pathLength="100" d="M207 58L344 20"/>
+    <path class="nn-trail" pathLength="100" d="M207 58L344 20"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M207 58L344 20"/>
+    <path class="nn-packet" pathLength="100" d="M207 58L344 20"/>
+  </g>
+  <g class="nn-stage-2" style="--nn-delay:1.992s;--nn-strength:0.6">
+    <path class="nn-route" pathLength="100" d="M207 58L344 58"/>
+    <path class="nn-trail" pathLength="100" d="M207 58L344 58"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M207 58L344 58"/>
+    <path class="nn-packet" pathLength="100" d="M207 58L344 58"/>
+  </g>
+  <g class="nn-stage-2" style="--nn-delay:2.092s;--nn-strength:0.85">
+    <path class="nn-route" pathLength="100" d="M207 58L344 96"/>
+    <path class="nn-trail" pathLength="100" d="M207 58L344 96"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M207 58L344 96"/>
+    <path class="nn-packet" pathLength="100" d="M207 58L344 96"/>
+  </g>
+  <g class="nn-stage-2" style="--nn-delay:2.192s;--nn-strength:0.38">
+    <path class="nn-route" pathLength="100" d="M207 58L344 134"/>
+    <path class="nn-trail" pathLength="100" d="M207 58L344 134"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M207 58L344 134"/>
+    <path class="nn-packet" pathLength="100" d="M207 58L344 134"/>
+  </g>
+  <g class="nn-stage-2" style="--nn-delay:1.892s;--nn-strength:0.85">
+    <path class="nn-route" pathLength="100" d="M207 96L344 20"/>
+    <path class="nn-trail" pathLength="100" d="M207 96L344 20"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M207 96L344 20"/>
+    <path class="nn-packet" pathLength="100" d="M207 96L344 20"/>
+  </g>
+  <g class="nn-stage-2" style="--nn-delay:1.992s;--nn-strength:0.38">
+    <path class="nn-route" pathLength="100" d="M207 96L344 58"/>
+    <path class="nn-trail" pathLength="100" d="M207 96L344 58"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M207 96L344 58"/>
+    <path class="nn-packet" pathLength="100" d="M207 96L344 58"/>
+  </g>
+  <g class="nn-stage-2" style="--nn-delay:2.092s;--nn-strength:0.6">
+    <path class="nn-route" pathLength="100" d="M207 96L344 96"/>
+    <path class="nn-trail" pathLength="100" d="M207 96L344 96"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M207 96L344 96"/>
+    <path class="nn-packet" pathLength="100" d="M207 96L344 96"/>
+  </g>
+  <g class="nn-stage-2" style="--nn-delay:2.192s;--nn-strength:0.85">
+    <path class="nn-route" pathLength="100" d="M207 96L344 134"/>
+    <path class="nn-trail" pathLength="100" d="M207 96L344 134"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M207 96L344 134"/>
+    <path class="nn-packet" pathLength="100" d="M207 96L344 134"/>
+  </g>
+  <g class="nn-stage-2" style="--nn-delay:1.892s;--nn-strength:0.6">
+    <path class="nn-route" pathLength="100" d="M207 134L344 20"/>
+    <path class="nn-trail" pathLength="100" d="M207 134L344 20"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M207 134L344 20"/>
+    <path class="nn-packet" pathLength="100" d="M207 134L344 20"/>
+  </g>
+  <g class="nn-stage-2" style="--nn-delay:1.992s;--nn-strength:0.85">
+    <path class="nn-route" pathLength="100" d="M207 134L344 58"/>
+    <path class="nn-trail" pathLength="100" d="M207 134L344 58"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M207 134L344 58"/>
+    <path class="nn-packet" pathLength="100" d="M207 134L344 58"/>
+  </g>
+  <g class="nn-stage-2" style="--nn-delay:2.092s;--nn-strength:0.38">
+    <path class="nn-route" pathLength="100" d="M207 134L344 96"/>
+    <path class="nn-trail" pathLength="100" d="M207 134L344 96"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M207 134L344 96"/>
+    <path class="nn-packet" pathLength="100" d="M207 134L344 96"/>
+  </g>
+  <g class="nn-stage-2" style="--nn-delay:2.192s;--nn-strength:0.6">
+    <path class="nn-route" pathLength="100" d="M207 134L344 134"/>
+    <path class="nn-trail" pathLength="100" d="M207 134L344 134"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M207 134L344 134"/>
+    <path class="nn-packet" pathLength="100" d="M207 134L344 134"/>
+  </g>
+  <g class="nn-stage-3" style="--nn-delay:3.392s;--nn-strength:0.85">
+    <path class="nn-route" pathLength="100" d="M344 20L481 58"/>
+    <path class="nn-trail" pathLength="100" d="M344 20L481 58"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M344 20L481 58"/>
+    <path class="nn-packet" pathLength="100" d="M344 20L481 58"/>
+  </g>
+  <g class="nn-stage-3" style="--nn-delay:3.552s;--nn-strength:0.38">
+    <path class="nn-route" pathLength="100" d="M344 20L481 96"/>
+    <path class="nn-trail" pathLength="100" d="M344 20L481 96"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M344 20L481 96"/>
+    <path class="nn-packet" pathLength="100" d="M344 20L481 96"/>
+  </g>
+  <g class="nn-stage-3" style="--nn-delay:3.392s;--nn-strength:0.6">
+    <path class="nn-route" pathLength="100" d="M344 58L481 58"/>
+    <path class="nn-trail" pathLength="100" d="M344 58L481 58"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M344 58L481 58"/>
+    <path class="nn-packet" pathLength="100" d="M344 58L481 58"/>
+  </g>
+  <g class="nn-stage-3" style="--nn-delay:3.552s;--nn-strength:0.85">
+    <path class="nn-route" pathLength="100" d="M344 58L481 96"/>
+    <path class="nn-trail" pathLength="100" d="M344 58L481 96"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M344 58L481 96"/>
+    <path class="nn-packet" pathLength="100" d="M344 58L481 96"/>
+  </g>
+  <g class="nn-stage-3" style="--nn-delay:3.392s;--nn-strength:0.38">
+    <path class="nn-route" pathLength="100" d="M344 96L481 58"/>
+    <path class="nn-trail" pathLength="100" d="M344 96L481 58"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M344 96L481 58"/>
+    <path class="nn-packet" pathLength="100" d="M344 96L481 58"/>
+  </g>
+  <g class="nn-stage-3" style="--nn-delay:3.552s;--nn-strength:0.6">
+    <path class="nn-route" pathLength="100" d="M344 96L481 96"/>
+    <path class="nn-trail" pathLength="100" d="M344 96L481 96"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M344 96L481 96"/>
+    <path class="nn-packet" pathLength="100" d="M344 96L481 96"/>
+  </g>
+  <g class="nn-stage-3" style="--nn-delay:3.392s;--nn-strength:0.85">
+    <path class="nn-route" pathLength="100" d="M344 134L481 58"/>
+    <path class="nn-trail" pathLength="100" d="M344 134L481 58"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M344 134L481 58"/>
+    <path class="nn-packet" pathLength="100" d="M344 134L481 58"/>
+  </g>
+  <g class="nn-stage-3" style="--nn-delay:3.552s;--nn-strength:0.38">
+    <path class="nn-route" pathLength="100" d="M344 134L481 96"/>
+    <path class="nn-trail" pathLength="100" d="M344 134L481 96"/>
+    <path class="nn-packet nn-packet-glow" pathLength="100" d="M344 134L481 96"/>
+    <path class="nn-packet" pathLength="100" d="M344 134L481 96"/>
+  </g>
+  <g class="nn-neuron nn-stage-0" transform="translate(70 39)" data-peak="0.26" style="--nn-delay:0.132s">
+    <circle class="nn-halo" r="10"/>
+    <circle class="nn-ring" r="7"/>
+    <circle class="nn-node" r="5.5"/>
+    <circle class="nn-node-tint" r="5.5"/>
+    <circle class="nn-core" r="3.3"/>
+  </g>
+  <g class="nn-neuron nn-stage-0" transform="translate(70 77)" data-peak="0.34" style="--nn-delay:0.212s">
+    <circle class="nn-halo" r="10"/>
+    <circle class="nn-ring" r="7"/>
+    <circle class="nn-node" r="5.5"/>
+    <circle class="nn-node-tint" r="5.5"/>
+    <circle class="nn-core" r="3.3"/>
+  </g>
+  <g class="nn-neuron nn-stage-0" transform="translate(70 115)" data-peak="0.42" style="--nn-delay:0.292s">
+    <circle class="nn-halo" r="10"/>
+    <circle class="nn-ring" r="7"/>
+    <circle class="nn-node" r="5.5"/>
+    <circle class="nn-node-tint" r="5.5"/>
+    <circle class="nn-core" r="3.3"/>
+  </g>
+  <g class="nn-neuron nn-stage-1" transform="translate(207 20)" data-peak="1.58" style="--nn-delay:1.452s">
+    <circle class="nn-halo" r="10"/>
+    <circle class="nn-ring" r="7"/>
+    <circle class="nn-node" r="5.5"/>
+    <circle class="nn-node-tint" r="5.5"/>
+    <circle class="nn-core" r="3.3"/>
+  </g>
+  <g class="nn-neuron nn-stage-1" transform="translate(207 58)" data-peak="1.68" style="--nn-delay:1.552s">
+    <circle class="nn-halo" r="10"/>
+    <circle class="nn-ring" r="7"/>
+    <circle class="nn-node" r="5.5"/>
+    <circle class="nn-node-tint" r="5.5"/>
+    <circle class="nn-core" r="3.3"/>
+  </g>
+  <g class="nn-neuron nn-stage-1" transform="translate(207 96)" data-peak="1.78" style="--nn-delay:1.652s">
+    <circle class="nn-halo" r="10"/>
+    <circle class="nn-ring" r="7"/>
+    <circle class="nn-node" r="5.5"/>
+    <circle class="nn-node-tint" r="5.5"/>
+    <circle class="nn-core" r="3.3"/>
+  </g>
+  <g class="nn-neuron nn-stage-1" transform="translate(207 134)" data-peak="1.88" style="--nn-delay:1.752s">
+    <circle class="nn-halo" r="10"/>
+    <circle class="nn-ring" r="7"/>
+    <circle class="nn-node" r="5.5"/>
+    <circle class="nn-node-tint" r="5.5"/>
+    <circle class="nn-core" r="3.3"/>
+  </g>
+  <g class="nn-neuron nn-stage-2" transform="translate(344 20)" data-peak="2.98" style="--nn-delay:2.852s">
+    <circle class="nn-halo" r="10"/>
+    <circle class="nn-ring" r="7"/>
+    <circle class="nn-node" r="5.5"/>
+    <circle class="nn-node-tint" r="5.5"/>
+    <circle class="nn-core" r="3.3"/>
+  </g>
+  <g class="nn-neuron nn-stage-2" transform="translate(344 58)" data-peak="3.08" style="--nn-delay:2.952s">
+    <circle class="nn-halo" r="10"/>
+    <circle class="nn-ring" r="7"/>
+    <circle class="nn-node" r="5.5"/>
+    <circle class="nn-node-tint" r="5.5"/>
+    <circle class="nn-core" r="3.3"/>
+  </g>
+  <g class="nn-neuron nn-stage-2" transform="translate(344 96)" data-peak="3.18" style="--nn-delay:3.052s">
+    <circle class="nn-halo" r="10"/>
+    <circle class="nn-ring" r="7"/>
+    <circle class="nn-node" r="5.5"/>
+    <circle class="nn-node-tint" r="5.5"/>
+    <circle class="nn-core" r="3.3"/>
+  </g>
+  <g class="nn-neuron nn-stage-2" transform="translate(344 134)" data-peak="3.28" style="--nn-delay:3.152s">
+    <circle class="nn-halo" r="10"/>
+    <circle class="nn-ring" r="7"/>
+    <circle class="nn-node" r="5.5"/>
+    <circle class="nn-node-tint" r="5.5"/>
+    <circle class="nn-core" r="3.3"/>
+  </g>
+  <g class="nn-neuron nn-stage-3" transform="translate(481 58)" data-peak="4.48" style="--nn-delay:4.352s">
+    <circle class="nn-halo" r="10"/>
+    <circle class="nn-ring" r="7"/>
+    <circle class="nn-node" r="5.5"/>
+    <circle class="nn-node-tint" r="5.5"/>
+    <circle class="nn-core" r="3.3"/>
+  </g>
+  <g class="nn-neuron nn-stage-3" transform="translate(481 96)" data-peak="4.64" style="--nn-delay:4.512s">
+    <circle class="nn-halo" r="10"/>
+    <circle class="nn-ring" r="7"/>
+    <circle class="nn-node" r="5.5"/>
+    <circle class="nn-node-tint" r="5.5"/>
+    <circle class="nn-core" r="3.3"/>
+  </g>
+  <text class="nn-label" x="70" y="165">DATA</text>
+  <text class="nn-label nn-label-active nn-stage-0" x="70" y="165" style="--nn-delay:0.21s" aria-hidden="true">DATA</text>
+  <text class="nn-label" x="275" y="165">PATTERNS</text>
+  <text class="nn-label nn-label-active nn-stage-1" x="275" y="165" style="--nn-delay:1.6s" aria-hidden="true">PATTERNS</text>
+  <text class="nn-label" x="481" y="165">PREDICTIONS</text>
+  <text class="nn-label nn-label-active nn-stage-3" x="481" y="165" style="--nn-delay:4.4s" aria-hidden="true">PREDICTIONS</text>
+</svg>
+  </g>
+</svg>
